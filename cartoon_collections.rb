@@ -6,13 +6,13 @@ end
 
 
 def summon_captain_planet(array)
-  array.collect { |element| element.capitalize + "!" }
+  array.map { |element| element.capitalize + "!" }
 end
 
 def long_planeteer_calls(array)
   array.any? { |words| words.length > 4}
 end
 
-def find_the_cheese
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
