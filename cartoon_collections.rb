@@ -15,5 +15,5 @@ end
 
 def find_the_cheese(ingredients)
   cheese = ["cheddar", "gouda", "camembert"]
-  
+  ingredients.find {|element| 
 end
