@@ -9,8 +9,12 @@ def summon_captain_planet(array)
   array.collect { |element| element.capitalize + "!" }
 end
 
-def long_planeteer_calls
-end
+def long_planeteer_calls(array)
+  array.each do |element|
+    return true if element.length > 4
+  else return false
+    end
+  end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
